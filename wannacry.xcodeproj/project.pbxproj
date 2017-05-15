@@ -10,7 +10,8 @@
 		8EF16CCE1EC9C33A008A358E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF16CCD1EC9C33A008A358E /* AppDelegate.swift */; };
 		8EF16CD01EC9C33A008A358E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF16CCF1EC9C33A008A358E /* ViewController.swift */; };
 		8EF16CD21EC9C33A008A358E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EF16CD11EC9C33A008A358E /* Assets.xcassets */; };
-		8EF16CD51EC9C33A008A358E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF16CD31EC9C33A008A358E /* Main.storyboard */; };
+		8EF16CE01EC9C40E008A358E /* WannaCryWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF16CDF1EC9C40E008A358E /* WannaCryWindowController.swift */; };
+		8EF16CE31EC9D1FD008A358E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EF16CE11EC9D1FD008A358E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,8 +19,9 @@
 		8EF16CCD1EC9C33A008A358E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EF16CCF1EC9C33A008A358E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8EF16CD11EC9C33A008A358E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8EF16CD41EC9C33A008A358E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8EF16CD61EC9C33A008A358E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EF16CDF1EC9C40E008A358E /* WannaCryWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WannaCryWindowController.swift; sourceTree = "<group>"; };
+		8EF16CE21EC9D1FD008A358E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 			children = (
 				8EF16CCD1EC9C33A008A358E /* AppDelegate.swift */,
 				8EF16CCF1EC9C33A008A358E /* ViewController.swift */,
+				8EF16CE11EC9D1FD008A358E /* Main.storyboard */,
 				8EF16CD11EC9C33A008A358E /* Assets.xcassets */,
-				8EF16CD31EC9C33A008A358E /* Main.storyboard */,
+				8EF16CDF1EC9C40E008A358E /* WannaCryWindowController.swift */,
 				8EF16CD61EC9C33A008A358E /* Info.plist */,
 			);
 			path = wannacry;
@@ -122,7 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EF16CD21EC9C33A008A358E /* Assets.xcassets in Resources */,
-				8EF16CD51EC9C33A008A358E /* Main.storyboard in Resources */,
+				8EF16CE31EC9D1FD008A358E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EF16CE01EC9C40E008A358E /* WannaCryWindowController.swift in Sources */,
 				8EF16CD01EC9C33A008A358E /* ViewController.swift in Sources */,
 				8EF16CCE1EC9C33A008A358E /* AppDelegate.swift in Sources */,
 			);
@@ -141,10 +145,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8EF16CD31EC9C33A008A358E /* Main.storyboard */ = {
+		8EF16CE11EC9D1FD008A358E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8EF16CD41EC9C33A008A358E /* Base */,
+				8EF16CE21EC9D1FD008A358E /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -291,6 +295,7 @@
 				8EF16CDB1EC9C33A008A358E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
